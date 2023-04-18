@@ -1,0 +1,92 @@
+/* Set the background color of the page to white */
+body {
+    background-color: #fff;
+    background-color: linear-gradient(to top, #110a92 25%, #fff 75%);
+  }
+  
+  body {
+    color: #080808;
+    
+  }
+  
+  /* Style the navigation links */
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 1px solid #110a92;
+    
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: #110a92;
+    text-align: center;
+    padding: 25px 100px;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  nav li a:hover {
+    background-color: #110a92;
+    color: #fff;
+  }
+  
+  
+  
+  /* Style the header */
+  header {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 1px solid #110a92;
+  }
+  
+  header h1 {
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: "Alfa Slab One", sans-serif;
+}
+  
+  header button {
+    background-color: #110a92;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  header button:hover {
+    background-color: #110a92;
+  }
+  
+  header img {
+    width: 1600px;
+    height: auto;
+  }
+  
+  
